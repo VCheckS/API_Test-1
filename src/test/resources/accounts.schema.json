@@ -26,10 +26,12 @@
       "balance": {
         "type": "integer"
       },
-      "currency":
-{ "enum": ["RUr", "USD"] }
-
-
+      "currency": {
+        "enum": [
+          "RUB",
+          "USD"
+        ]
+      }
     }
   }
 }
